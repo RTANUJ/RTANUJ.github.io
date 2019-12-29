@@ -1,0 +1,4 @@
+(function($){if(typeof $==='undefined'){return;}
+$(function(){var timeout=null;$('.contact-map-container')
+.on('mouseenter',function(){var $distractor=$(this).find('> .contact-map-distractor');clearTimeout(timeout);timeout=setTimeout(function(){$distractor.hide();},500);})
+.on('mouseleave',function(){clearTimeout(timeout);$(this).find('> .contact-map-distractor').show();});});})(window.jQuery);
