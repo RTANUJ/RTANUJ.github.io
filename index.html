@@ -7,13 +7,23 @@
     <title>Tanuj Rajkumar</title>
 </head>
 <body>
+    <!-- Load jQuery and Sheetrock from CDNJS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-sheetrock/1.1.4/dist/sheetrock.min.js"></script>
     <h1>Hi, I'm Tanuj Rajkumar</h1>
-    
+   
     <script>
         alert("The Site is under development. Kindly visit later !!!")
+        var mySpreadsheet = 'https://docs.google.com/spreadsheets/d/1CvUHq0kEH9HsheodR9Yt0uVLnt6l7IqPV8sOu_xSf8U/edit#gid=0';
+        // Load an entire worksheet.
+        $('#statistics').sheetrock({url: mySpreadsheet}); 
+
+
+
 
     </script>
 
-   
+<table id="statistics" class="table table-condensed table-striped"></table>
+<h2>Welcome</h2>   
 </body>
 </html>
