@@ -1,6 +1,7 @@
 img {
     max-width: 100%;
     display: block;
+    min-width: 100%;
   }
   .items {
     display: flex;
