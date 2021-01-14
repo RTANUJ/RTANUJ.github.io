@@ -126,11 +126,11 @@ body {
 
 .nav.navbar-nav.border.rounded.border-success.ml-auto {
   border-radius: 200px;
-  border: dashed;
+  border: none;
 }
 
 #nav-links {
-  border: dashed;
+  border: none;
   border-radius: 25px;
   border-color: white;
   border-width: thin;
