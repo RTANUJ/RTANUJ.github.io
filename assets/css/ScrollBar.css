@@ -7,9 +7,8 @@
 /* Track */
 
 ::-webkit-scrollbar-track {
-  color: transparent;
-  background-color: transparent;
-  background: transparent;
+  color: black;
+  background: black;
   box-shadow: none;
   border-radius: 10px;
 }
@@ -17,8 +16,8 @@
 /* Handle */
 
 ::-webkit-scrollbar-thumb {
-  background: rgb(92, 92, 92);
-  border-radius: 10px;
+  background: rgb(194, 194, 194);
+  border-radius: 20px;
 }
 
 /* Handle on hover */
